@@ -7,9 +7,10 @@
 
 .check__input {
   position: absolute;
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
 }
 
 .check__box {

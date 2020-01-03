@@ -5,6 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="main/login page for QRCM site">
+    <link rel="canonical" href="https://crazynoodl.github.io/QCRM" />
     <title>QCRM</title>
     <!-- Сюда будет всталена ссылка на файл стилей -->
     <!-- inject:css -->
@@ -26,8 +28,13 @@
         <p class="form__subtitle">
           by SupportYourApp
         </p>
-        <input class="form__login form__input" name="login" type="text" placeholder="Login" required>
-        <input class="form__password form__input" name="password" type="password" placeholder="Password" required>
+        <label>
+          <input class="form__login form__input" name="login" type="text" placeholder="Login" required>
+        </label>
+        <label>
+          <input class="form__password form__input" name="password" type="password" placeholder="Password"
+            autocomplete="off" required>
+        </label>
         <label class="form__checkbox check">
           <input class="form__checkbox check__input" type="checkbox" checked>
           <span class="check__box"></span>
