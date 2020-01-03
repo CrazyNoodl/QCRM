@@ -1,1 +1,1 @@
-"use strict";var section=document.querySelector(".section"),backgroundImages=section.dataset.backgroundImage.split(" ");function changeBg(){section.style.background="url(../images/".concat(backgroundImages[Math.floor(3*Math.random())],".jpg) center no-repeat")}setInterval(changeBg,5e3);
+"use strict";var section=document.querySelector(".section"),backgroundImages=section.dataset.backgroundImage.split(" ");function changeBg(){section.style.background="url(./images/".concat(backgroundImages[Math.floor(3*Math.random())],".jpg) center no-repeat")}setInterval(changeBg,5e3);
