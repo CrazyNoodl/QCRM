@@ -1,0 +1,78 @@
+@keyframes bgAnim {
+  0% {
+    opacity: 0;
+  }
+
+50% {
+  opacity: 0;
+}
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes formAnim {
+  0% {
+    transform: perspective(500px) rotateX(-30deg);
+    transform-origin: top;
+    opacity: 0;
+  }
+
+  100% {
+    transform: rotateX(0deg);
+    transform-origin: top;
+  }
+}
+
+@keyframes logoAnim {
+  0% {
+    transform: rotateX(80deg);
+    transform-origin: top;
+  }
+
+  100% {
+    transform: rotateX(0deg);
+    transform-origin: top;
+  }
+}
+
+@keyframes orangeAnim {
+  0% {
+    transform: translate(-50px, -50px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes pinkAnim {
+  0% {
+    transform: translate(50px, -50px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes blueAnim {
+  0% {
+    transform: translate(-50px, -50px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes greenAnim {
+  0% {
+    transform: translate(100px, -100px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}

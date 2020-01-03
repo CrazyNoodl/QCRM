@@ -1,0 +1,33 @@
+.check {
+  padding-left: 20px;
+  cursor: pointer;
+  width: max-content;
+  line-height: 18px;
+}
+
+.check__input {
+  position: absolute;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.check__box {
+  position: absolute;
+  margin-left: -20px;
+  width: 15px;
+  height: 15px;
+  background-image: url(../images/off.svg);
+}
+
+.check__input:checked+.check__box {
+  background-image: url(../images/on.svg);
+}
+
+.check__input:focus+.check__box {
+  background-image: url(../images/off-focused.svg);
+}
+
+.check__input:checked:focus+.check__box {
+  background-image: url(../images/on-focused.svg);
+}
