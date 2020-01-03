@@ -1,3 +1,3 @@
-[DEMO LINK](https://github.com/CrazyNoodl/QCRM)
+[DEMO LINK](https://crazynoodl.github.io/QCRM/)
 
-Only fronend for SupportYourApp
+Only fronend for SupportYourApp.
